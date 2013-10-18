@@ -1,0 +1,7 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/install.sh
+%%EXAMPLESDIR%%/screenrc
+@dirrmtry %%EXAMPLESDIR%%
+@cwd /
+%%PORT_DBDIR%%/sysutils_screen/options
+@dirrmtry %%PORT_DBDIR%%/sysutils_screen
