@@ -1,0 +1,7 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/install.sh
+%%EXAMPLESDIR%%/vimrc
+%%EXAMPLESDIR%%/vim/colors/molokai.vim
+@dirrmtry %%EXAMPLESDIR%%/vim/colors
+@dirrmtry %%EXAMPLESDIR%%/vim
+@dirrmtry %%EXAMPLESDIR%%
