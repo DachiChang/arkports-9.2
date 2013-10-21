@@ -15,7 +15,8 @@ MAINTAINER=	femc7488@gmail.com
 COMMENT=	Awesome Rapid Kit system administration tool set
 
 RUN_DEPENDS=	ark-portmaster-config>=0:${PORTSDIR}/arkports/portmaster-config \
-		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster
+		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster \
+		sudo>=0:${PORTSDIR}/security/sudo
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
