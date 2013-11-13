@@ -1,0 +1,5 @@
+@comment $FreeBSD$
+etc/php.ini
+@cwd /
+%%PORT_DBDIR%%/lang_php5-extensions/options
+@dirrmtry %%PORT_DBDIR%%/lang_php5-extensions
