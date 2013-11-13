@@ -1,0 +1,3 @@
+@comment $FreeBSD$
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/rc.conf
+etc/my.cnf

@@ -1,0 +1,2 @@
+mysql_enable="YES"
+mysql_optfile="/usr/local/etc/my.cnf"
