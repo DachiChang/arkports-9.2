@@ -1,0 +1,4 @@
+@comment $FreeBSD$
+etc/apache24/Includes/phpmyadmin.conf
+@dirrmtry etc/apache24/Includes
+@dirrmtry etc/apache24
