@@ -16,7 +16,8 @@ COMMENT=	Awesome Rapid Kit php5 programming language
 
 RUN_DEPENDS=	ark-php5-config>=0:${PORTSDIR}/arkports/php5-config \
 		php5>=0:${PORTSDIR}/lang/php5 \
-		php5-extensions>=0:${PORTSDIR}/lang/php5-extensions
+		php5-extensions>=0:${PORTSDIR}/lang/php5-extensions \
+		ark-php5-composer>=0:${PORTSDIR}/arkports/php5-composer
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
