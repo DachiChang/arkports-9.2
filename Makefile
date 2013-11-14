@@ -7,6 +7,7 @@
     SUBDIR += mysql56-config
     SUBDIR += mysql56-meta
     SUBDIR += php5-config
+    SUBDIR += php5-composer
     SUBDIR += php5-meta
     SUBDIR += phpmyadmin-config
     SUBDIR += phpmyadmin-meta
