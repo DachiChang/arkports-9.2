@@ -1,6 +1,7 @@
 @comment $FreeBSD$
 @unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/rc.conf
 etc/apache24/Includes/php-fastcgi.conf
+etc/apache24/Includes/hostname.conf
 @dirrmtry etc/apache24/Includes
 @dirrmtry etc/apache24
 @cwd /
