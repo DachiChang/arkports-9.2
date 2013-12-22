@@ -12,6 +12,8 @@
     SUBDIR += phpmyadmin-config
     SUBDIR += phpmyadmin-meta
     SUBDIR += portmaster-config
+    SUBDIR += proftpd-meta
+    SUBDIR += proftpd-config
     SUBDIR += screen-config
     SUBDIR += screen-meta
     SUBDIR += system-admin-meta
