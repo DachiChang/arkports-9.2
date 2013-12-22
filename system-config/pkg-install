@@ -15,6 +15,7 @@ MKDIR="mkdir -p"
 MAKE_SETTING="files/make_setting"
 LOADER_SETTING="files/loader_setting"
 RC_SETTING="files/rc_setting"
+SHELLS_SETTING="files/shells_setting"
 
 # append header and footer
 CONF_HEADER="# Begin of $1 settings"
@@ -32,6 +33,10 @@ ${ECHO} ${CONF_FOOTER} >> /etc/make.conf
 ${ECHO} ${CONF_HEADER} >> /boot/loader.conf
 ${CAT} ${LOADER_SETTING} >> /boot/loader.conf
 ${ECHO} ${CONF_FOOTER} >> /boot/loader.conf
+
+${ECHO} ${CONF_HEADER} >> /etc/shells
+${CAT} ${SHELLS_SETTING} >> /etc/shells
+${ECHO} ${CONF_FOOTER} >> /etc/shells
 
 # mount proc, linproc file system
 ${ECHO} ${CONF_HEADER} >> /etc/fstab
