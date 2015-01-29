@@ -22,5 +22,6 @@ NO_BUILD=	yes
 do-install:
 	${MKDIR} ${PREFIX}/etc
 	${INSTALL_DATA} ${FILESDIR}/config/proftpd.conf ${PREFIX}/etc/
+	PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} DO-INSTALL
 
 .include <bsd.port.mk>
